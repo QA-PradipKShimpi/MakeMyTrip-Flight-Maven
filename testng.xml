@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="MakeMyTripSuite">
+    <classes>
+          
+      <class name="makeMyTripTestCases.M1_SearchFlightTestCases"/>  
+      <class name="makeMyTripTestCases.M2_BookFlightTestCases"/>
+      <class name="makeMyTripTestCases.M3_FillDeatilsTestCases"/>
+      <class name="makeMyTripTestCases.M4_PayByCreditcardTestCases"/>
+      <class name="makeMyTripTestCases.M5_End_To_End_Test_Case"/>
+      
+      
+    </classes>
+  </test> <!-- MakeMyTripSuite -->
+</suite> <!-- Suite -->
