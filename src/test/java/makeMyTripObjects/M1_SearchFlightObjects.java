@@ -11,6 +11,7 @@ public class M1_SearchFlightObjects
 	{
 		this.driver=driver;
 	}
+	
 // WebElement Object to choose way of travel mode
 	
 	private By roundTrip=By.xpath("//ul//li[@data-cy='roundTrip']"); // 2 way trip
@@ -27,8 +28,8 @@ public class M1_SearchFlightObjects
 	
 // WebElement Object to select dates of Departure and Arrival
 	
-	private By dates= By.xpath("//div[@class='DayPicker-Week' and @role='row'] //div[@aria-label='Sun Aug 04 2024']");
-	private By date2=By.xpath("//div[@class='DayPicker-Week' and @role='row'] //div[@aria-label='Wed Aug 07 2024']");
+	private By dates= By.xpath("//div[@class='DayPicker-Week' and @role='row'] //div[@aria-label='Fri Aug 09 2024']");
+	private By date2=By.xpath("//div[@class='DayPicker-Week' and @role='row'] //div[@aria-label='Sun Aug 11 2024']");
 	
 // WebElement Object to select a Travel Class
 	
@@ -80,8 +81,7 @@ public class M1_SearchFlightObjects
 		//MakeMyTrip security measures does not allows automated operations further using
 		//selenium, hence twik url by replacing 'false' keyword to 'true' in url
 		
-		driver.navigate().to("https://www.makemytrip.com/flight/search?itinerary=PNQ-BOM-04/08/2024_BOM-PNQ-07/08/2024&tripType=R&paxType=A-1_C-0_I-0&intl=true&cabinClass=B&ccde=IN&lang=eng");	
-	
+		driver.navigate().to("https://www.makemytrip.com/flight/search?itinerary=PNQ-BOM-09/08/2024_BOM-PNQ-11/08/2024&tripType=R&paxType=A-1_C-0_I-0&intl=true&cabinClass=B&ccde=IN&lang=eng");	
 	}
 	
 }

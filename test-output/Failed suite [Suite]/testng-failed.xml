@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="MakeMyTripSuite(failed)">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MakeMyTripSuite(failed)(failed)">
     <classes>
       <class name="makeMyTripTestCases.M4_PayByCreditcardTestCases">
         <methods>
@@ -9,6 +9,12 @@
           <include name="preRequisites"/>
         </methods>
       </class> <!-- makeMyTripTestCases.M4_PayByCreditcardTestCases -->
+      <class name="makeMyTripTestCases.M2_BookFlightTestCases">
+        <methods>
+          <include name="flightBooking"/>
+          <include name="preRequisites"/>
+        </methods>
+      </class> <!-- makeMyTripTestCases.M2_BookFlightTestCases -->
       <class name="makeMyTripTestCases.M3_FillDeatilsTestCases">
         <methods>
           <include name="travelDetails"/>
@@ -21,12 +27,12 @@
           <include name="flightSearching"/>
         </methods>
       </class> <!-- makeMyTripTestCases.M1_SearchFlightTestCases -->
-      <class name="makeMyTripTestCases.M2_BookFlightTestCases">
+      <class name="makeMyTripTestCases.M5_End_To_End_Test_Case">
         <methods>
-          <include name="flightBooking"/>
+          <include name="endToEndFlow"/>
           <include name="preRequisites"/>
         </methods>
-      </class> <!-- makeMyTripTestCases.M2_BookFlightTestCases -->
+      </class> <!-- makeMyTripTestCases.M5_End_To_End_Test_Case -->
     </classes>
-  </test> <!-- MakeMyTripSuite(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- MakeMyTripSuite(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

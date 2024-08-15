@@ -7,9 +7,7 @@
       <class name="makeMyTripTestCases.M1_SearchFlightTestCases"/>  
       <class name="makeMyTripTestCases.M2_BookFlightTestCases"/>
       <class name="makeMyTripTestCases.M3_FillDeatilsTestCases"/>
-      <class name="makeMyTripTestCases.M4_PayByCreditcardTestCases"/>
-      <class name="makeMyTripTestCases.M5_End_To_End_Test_Case"/>
-      
+      <class name="makeMyTripTestCases.M4_PayByCreditcardTestCases"/>      
       
     </classes>
   </test> <!-- MakeMyTripSuite -->

@@ -30,9 +30,9 @@ public class M4_PayByCreditcardObjects
 	private By mumbaiDelhi=By.xpath("//div[@class='seatCol'] //div[@id='BOM$DEL$2024-08-07 01:20$UK-984_2A']");
 	private By delhiPune=By.xpath("//div[@class='seatCol']//div[@id='DEL$PNQ$2024-08-07 08:30$UK-971_2C']");
 
-// WebElement Object to proceed to payment gateway
-	
 	private By next=By.xpath("//button[@class='sliderNextBtn']");
+	
+// WebElement Object to proceed to payment gateway
 	
 	private By skip=By.xpath("//span[text()='Skip to add-ons']");
 	
@@ -127,12 +127,7 @@ public class M4_PayByCreditcardObjects
 		}
 				
 		driver.findElement(payNow).click();
-/* 
- * Ahh..! of course I am not gonna pay...these are not real credentials ;)
- * Thank you, if you are till here ;)
- *  
- */
-		
+	
 		
 	}
 	

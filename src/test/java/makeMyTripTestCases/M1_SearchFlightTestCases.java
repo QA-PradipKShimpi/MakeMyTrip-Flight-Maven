@@ -2,7 +2,6 @@ package makeMyTripTestCases;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 public class M1_SearchFlightTestCases extends BaseClass 	//Inheritance by child class
 {

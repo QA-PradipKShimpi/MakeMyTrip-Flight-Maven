@@ -58,7 +58,7 @@ public class M3_FillDeatilsObject
 			}
 		}
 		
-		driver.findElement(ok).click();
+		//driver.findElement(ok).click();
 		driver.findElement(radiobutton).click();		
 /*
 		if(ok!= null) 
@@ -83,8 +83,8 @@ public class M3_FillDeatilsObject
 			}
 		}
 				
-		driver.findElement(mobNo).sendKeys("9284936836");
-		driver.findElement(email).sendKeys("pradipkshimpi@gmail.com");
+		driver.findElement(mobNo).sendKeys("1234567890");
+		driver.findElement(email).sendKeys("youremail@gmail.com");
 		Thread.sleep(2000);		
 		driver.findElement(cemail).click();
 		

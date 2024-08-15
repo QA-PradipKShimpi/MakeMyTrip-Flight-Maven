@@ -1,12 +1,10 @@
 package makeMyTripObjects;
 
 import java.util.List;
-import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.WindowType;
 
 public class M2_BookFlightsObjects
 {
@@ -19,7 +17,7 @@ public class M2_BookFlightsObjects
 
 // WebElement Object to select checkbox for vistara flight
 	
-	private By vistara=By.xpath("//p[text()='Vistara (2)  ']");
+	private By vistara=By.xpath("//p[text()='Vistara (12)  ']");
 
 // WebElement Object to get vistara flight information
 	

@@ -34,6 +34,7 @@ public class BaseClass // This is parent class
 		driver.manage().window().maximize();
 		driver.get("https://www.makemytrip.com/");
 		Thread.sleep(3000);
+		
 		driver.findElement(By.xpath("//span[@data-cy='closeModal']")).click();
 		
 // Objects of all Object classes
